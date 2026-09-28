@@ -277,10 +277,56 @@ h6 {
 /* Hero Small Gradient Title */
 
 .hero-small-title {
-    background: linear-gradient(90deg, #4DA3FF, #8B5CF6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
-    letter-spacing: 3px;
+  background: linear-gradient(90deg, #4da3ff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+/* Explore Card Glow */
+
+.explore-card:hover {
+  transform: translateY(-8px);
+  border-color: #4da3ff;
+  box-shadow:
+    0 10px 30px rgba(77, 163, 255, 0.2),
+    0 0 25px rgba(139, 92, 246, 0.15);
+}
+/* Smooth Explore Tabs */
+
+#exploreTabs ~ .tab-content .tab-pane {
+  transition: opacity 0.2s ease-in-out;
+}
+
+#exploreTabs ~ .tab-content .tab-pane.fade {
+  transition: opacity 0.2s ease-in-out;
+}
+/* Smooth Explore Tab Transition */
+
+.tab-pane {
+  transition: opacity 0.2s ease-in-out;
+}
+/* Explore Tabs Hover */
+
+#exploreTabs .nav-link {
+  color: #aab4c8;
+  background: #0d1b2a;
+  border: 1px solid #1e3a5f;
+  border-radius: 30px;
+  padding: 11px 28px;
+  transition: 0.4s ease;
+}
+
+#exploreTabs .nav-link:hover {
+  color: #ffffff;
+  border-color: #4da3ff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(77, 163, 255, 0.3);
+}
+
+#exploreTabs .nav-link.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #4da3ff, #8b5cf6);
+  border-color: transparent;
 }
