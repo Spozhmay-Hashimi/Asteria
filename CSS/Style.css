@@ -1,42 +1,87 @@
-* {
-  box-sizing: border-box;
-}
+/* Asteria Global Styles */
+
 body {
-  margin: 0;
-  background: #050b14;
-  color: white;
+  background-color: #050b14;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
 }
-/* Hero */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.text-secondary {
+  color: #aab4c8 !important;
+}
+
+.text-primary {
+  color: #4da3ff !important;
+}
+
+/* Explore Hero Section */
+
 .explore-hero {
-  min-height: 90vh;
-  padding: 70px 0;
+  height: 700px;
+  position: relative;
+  overflow: hidden;
   display: flex;
   align-items: center;
 }
-.hero-content {
-  max-width: 580px;
+
+/* Hero Background */
+
+.hero-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }
+
+/* Hero Content */
+
+.hero-content {
+  position: relative;
+  max-width: 600px;
+  margin-top: 130px;
+}
+
+/* Hero Small Title */
+
 .hero-small-title {
   color: #4da3ff;
-  font-size: 13px;
-  letter-spacing: 4px;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
+
+/* Hero Heading */
+
 .hero-content h1 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 76px;
-  margin: 18px 0;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 600;
 }
+
+/* Hero Text */
+
 .hero-text {
   color: #aab4c8;
-  font-size: 16px;
-  max-width: 500px;
-  margin-bottom: 30px;
+  font-size: 18px;
 }
+
+/* Explore Button */
+
 .explore-button {
   display: inline-block;
-  color: white;
+  padding: 14px 30px;
+  margin-top: 15px;
+  color: #ffffff;
   text-decoration: none;
   background: linear-gradient(135deg, #4da3ff, #8b5cf6);
   padding: 12px 25px;
@@ -81,10 +126,6 @@ body {
   background: #0d1b2a;
   border: 1px solid #1e3a5f;
   border-radius: 30px;
-  padding: 10px 25px;
-}
-.explore-tabs .nav-link.active {
-  color: white;
   background: linear-gradient(135deg, #4da3ff, #8b5cf6);
 }
 /* Cards */
