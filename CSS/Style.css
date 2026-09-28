@@ -31,6 +31,7 @@ h6 {
   overflow: hidden;
   display: flex;
   align-items: center;
+  width: 100%;
 }
 
 /* Hero Background */
@@ -97,102 +98,11 @@ h6 {
   object-fit: cover;
   border-radius: 50%;
 }
-/* Explore */
-.explore-section {
-  padding: 90px 0;
-}
-.section-title {
-  margin-bottom: 50px;
-}
-.section-title p {
-  color: #4da3ff;
-  letter-spacing: 4px;
-  font-size: 12px;
-}
-.section-title h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 58px;
-}
-.section-title span {
-  color: #aab4c8;
-}
-/* Tabs */
-.explore-tabs {
-  gap: 10px;
-  margin-bottom: 45px;
-}
-.explore-tabs .nav-link {
-  color: #aab4c8;
-  background: #0d1b2a;
-  border: 1px solid #1e3a5f;
-  border-radius: 30px;
-  background: linear-gradient(135deg, #4da3ff, #8b5cf6);
-}
-/* Cards */
-.space-card {
-  height: 100%;
-  overflow: hidden;
-  background: #0d1b2a;
-  border: 1px solid #1e3a5f;
-  border-radius: 18px;
-}
-.space-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-}
-.card-content {
-  padding: 20px;
-}
-.card-content h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 29px;
-}
-.card-content p {
-  color: #aab4c8;
-  font-size: 13px;
-  min-height: 45px;
-}
-.learn-button {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background: linear-gradient(135deg, #4da3ff, #8b5cf6);
-  padding: 9px 20px;
-  border-radius: 25px;
-  font-size: 12px;
-}
-/* Responsive */
-@media (max-width: 991px) {
-  .hero-content {
-    max-width: 100%;
-    text-align: center;
-    margin: auto;
-  }
+/* Explore Tabs */
 
-  .hero-text {
-    margin: auto auto 30px;
-  }
-
-  .hero-image {
-    margin-top: 50px;
-  }
-
-  .hero-content h1 {
-    font-size: 60px;
-  }
-}
-@media (max-width: 575px) {
-  .hero-content h1 {
-    font-size: 42px;
-  }
-
-  .hero-image img {
-    height: 270px;
-    max-width: 270px;
-  }
-
-  .section-title h2 {
-    font-size: 40px;
-  }
+#explore {
+  position: relative;
+  z-index: 10;
+  padding-top: 80px !important;
+  background-color: #050b14;
 }
