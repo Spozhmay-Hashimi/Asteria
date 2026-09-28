@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Asteria - Missions</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+
+<body>
+
+    <!-- =========================================
+         NAVBAR
+    ========================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid px-lg-5">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="#">
+                <i class="bi bi-stars"></i>
+                ASTERIA
+            </a>
+
+            <!-- Mobile menu button -->
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <!-- Navigation links -->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Explore</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Missions</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                </ul>
+
+                <!-- Right side -->
+                <div class="nav-right d-flex align-items-center gap-4">
+
+                    <i class="bi bi-search search-icon"></i>
+
+                    <a href="#" class="explore-btn">
+                        Explore
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- =========================================
+         HERO SECTION
+    ========================================== -->
+    <header class="hero-section">
+
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+
+            <div class="hero-text">
+
+                <p class="small-title">
+                    MISSIONS
+                </p>
+
+                <h1>
+                    Real Missions.<br>
+                    Real Discoveries.
+                </h1>
+
+                <p class="hero-description">
+                    From robotic explorers to human space missions,
+                    <br class="d-none d-md-block">
+                    we push the boundaries of what's possible.
+                </p>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- =========================================
+         MAIN CONTENT
+    ========================================== -->
+    <main class="missions-section">
+
+        <div class="container">
+
+            <!-- Filter buttons -->
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-filter="all">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="active">
+                    Active
+                </button>
+
+                <button class="filter-btn" data-filter="completed">
+                    Completed
+                </button>
+
+                <button class="filter-btn" data-filter="upcoming">
+                    Upcoming
+                </button>
+
+            </div>
+
+
+            <!-- =====================================
+                 MISSION 1
+            ====================================== -->
+            <div class="mission-card" data-status="active">
+
+                <div class="mission-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=600&q=80"
+                        alt="James Webb Space Telescope">
+                </div>
+
+                <div class="mission-info">
+
+                    <h3>
+                        James Webb Space Telescope
+                    </h3>
+
+                    <p>
+                        Exploring the early universe and the formation of galaxies.
+                    </p>
+
+                    <a href="#" class="learn-more">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="mission-status">
+
+                    <span class="status active-status">
+                        Active
+                    </span>
+
+                    <p>
+                        Dec 25, 2021
+                    </p>
+
+                    <i class="bi bi-arrow-right arrow-icon"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 MISSION 2
+            ====================================== -->
+            <div class="mission-card" data-status="active">
+
+                <div class="mission-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1517976547714-720226b864c1?auto=format&fit=crop&w=600&q=80"
+                        alt="Artemis Program">
+                </div>
+
+                <div class="mission-info">
+
+                    <h3>
+                        Artemis Program
+                    </h3>
+
+                    <p>
+                        Returning humans to the Moon and preparing for Mars.
+                    </p>
+
+                    <a href="#" class="learn-more">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="mission-status">
+
+                    <span class="status active-status">
+                        Active
+                    </span>
+
+                    <p>
+                        2022 - Present
+                    </p>
+
+                    <i class="bi bi-arrow-right arrow-icon"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 MISSION 3
+            ====================================== -->
+            <div class="mission-card" data-status="active">
+
+                <div class="mission-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=600&q=80"
+                        alt="Mars Perseverance Rover">
+                </div>
+
+                <div class="mission-info">
+
+                    <h3>
+                        Mars Perseverance Rover
+                    </h3>
+
+                    <p>
+                        Searching for signs of ancient life on Mars.
+                    </p>
+
+                    <a href="#" class="learn-more">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="mission-status">
+
+                    <span class="status active-status">
+                        Active
+                    </span>
+
+                    <p>
+                        Feb 18, 2021
+                    </p>
+
+                    <i class="bi bi-arrow-right arrow-icon"></i>
+
+                </div>
+
+            </div>
+
+
+            <!-- =====================================
+                 MISSION 4
+            ====================================== -->
+            <div class="mission-card" data-status="completed">
+
+                <div class="mission-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=600&q=80"
+                        alt="Hubble Space Telescope">
+                </div>
+
+                <div class="mission-info">
+
+                    <h3>
+                        Hubble Space Telescope
+                    </h3>
+
+                    <p>
+                        Capturing breathtaking views of the universe for over 30 years.
+                    </p>
+
+                    <a href="#" class="learn-more">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+                <div class="mission-status">
+
+                    <span class="status completed-status">
+                        Completed
+                    </span>
+
+                    <p>
+                        Apr 24, 1990
+                    </p>
+
+                    <i class="bi bi-arrow-right arrow-icon"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Our JavaScript -->
+    <script src="../js/js.js"></script>
+
+</body>
+
+</html>

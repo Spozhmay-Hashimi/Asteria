@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
+    <title>Asteria | Explore</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Asteria Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+        <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../CSS/Style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+ <div class="container-fluid px-lg-5">
+
+ <!-- Logo -->
+ <a class="navbar-brand logo" href="#">
+ <i class="bi bi-stars"></i>
+ ASTERIA
+ </a>
+
+<!-- Mobile menu button -->
+  <button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+ data-bs-target="#mainNavbar">
+ <i class="bi bi-list"></i>
+ </button>
+
+ <!-- Navigation links -->
+ <div class="collapse navbar-collapse" id="mainNavbar">
+
+<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+<li class="nav-item">
+<a class="nav-link" href="../index.html">Home</a>
+</li>
+
+<li class="nav-item">
+ <a class="nav-link active" href="Discover.html">Explore</a>
+</li>
+<li class="nav-item">
+ <a class="nav-link " href="Missions.html">Missions</a>
+ </li>
+
+<li class="nav-item">
+ <a class="nav-link" href="News.html">News</a>
+</li>
+
+ </ul>
+
+ <!-- Right side -->
+ <div class="nav-right d-flex align-items-center gap-4">
+
+<i class="bi bi-search search-icon"></i>
+
+<a href="#" class="explore-btn">
+ Explore
+ </a>
+</div>
+ </div>
+ </div>
+ </nav>
+    <!-- Explore Hero Section -->
+    <section class="explore-hero">
+      <!-- Hero Background -->
+      <img
+        src="../explore-images/hero.jpg"
+        class="hero-background"
+        alt="Space"
+      />
+
+      <!-- Hero Content -->
+      <div class="container">
+        <!-- Hero Text -->
+        <div class="hero-content">
+          <!-- Small Heading -->
+          <p class="hero-small-title">EXPLORE</p>
+
+          <!-- Main Heading -->
+          <h1>Discover Our Universe</h1>
+
+          <!-- Hero Description -->
+          <p class="hero-text">
+            Journey beyond our world and discover the planets, galaxies and
+            stars of our universe.
+          </p>
+
+          <!-- Explore Button -->
+          <a href="#explore" class="explore-button"> Explore Universe </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Explore Categories Section -->
+    <section class="py-5" id="explore">
+      <!-- Explore Container -->
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="text-center mb-5">
+          <!-- Small Heading -->
+          <p class="text-primary fw-bold">THE UNIVERSE AWAITS</p>
+
+          <!-- Main Heading -->
+          <h2 class="display-4 text-white">Explore Space</h2>
+
+          <!-- Description -->
+          <p class="text-secondary">
+            Choose a category and discover the wonders beyond Earth.
+          </p>
+        </div>
+
+        <!-- Explore Tabs -->
+        <ul
+          class="nav nav-pills justify-content-center"
+          id="exploreTabs"
+          role="tablist"
+        >
+          <!-- Planets Tab -->
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="planets-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#planets"
+              type="button"
+              role="tab"
+            >
+              Planets
+            </button>
+          </li>
+
+          <!-- Galaxies Tab -->
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="galaxies-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#galaxies"
+              type="button"
+              role="tab"
+            >
+              Galaxies
+            </button>
+          </li>
+
+          <!-- Stars Tab -->
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="stars-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#stars"
+              type="button"
+              role="tab"
+            >
+              Stars
+            </button>
+          </li>
+          <!--Explore Tab Contant-->
+          <div class="tab-content">
+        
+      
+    <!-- Planets Content -->
+    <div class="tab-pane fade show active" id="planets" role="tabpanel">
+      <!-- Planets Cards -->
+      <div class="row g-4">
+        <!-- Mercury -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/1.png" alt="Mercury" />
+            <div class="explore-card-content">
+              <h3>Mercury</h3>
+              <p>The smallest planet and the closest planet to the Sun.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Venus -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/2.png" alt="Venus" />
+            <div class="explore-card-content">
+              <h3>Venus</h3>
+              <p>A hot world covered by thick clouds and a dense atmosphere.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Earth -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/3.png" alt="Earth" />
+            <div class="explore-card-content">
+              <h3>Earth</h3>
+              <p>Our home planet and the only known world with life.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mars -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/4.png" alt="Mars" />
+            <div class="explore-card-content">
+              <h3>Mars</h3>
+              <p>
+                The red planet with a cold desert landscape and giant volcanoes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Jupiter -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/5.png" alt="Jupiter" />
+            <div class="explore-card-content">
+              <h3>Jupiter</h3>
+              <p>The largest planet in our Solar System.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Saturn -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/6.png" alt="Saturn" />
+            <div class="explore-card-content">
+              <h3>Saturn</h3>
+              <p>A giant planet famous for its spectacular rings.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Uranus -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/7.png" alt="Uranus" />
+            <div class="explore-card-content">
+              <h3>Uranus</h3>
+              <p>An icy giant with a unique tilted rotation.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Neptune -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/8.png" alt="Neptune" />
+            <div class="explore-card-content">
+              <h3>Neptune</h3>
+              <p>A distant blue planet with powerful winds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Galaxies Content -->
+    <div class="tab-pane fade" id="galaxies" role="tabpanel">
+      <!-- Galaxies Cards -->
+      <div class="row g-4">
+        <!-- Andromeda -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_10_2026-09-27_18-22-13.jpg" alt="Andromeda Galaxy" />
+            <div class="explore-card-content">
+              <h3>Andromeda</h3>
+              <p>
+                A large spiral galaxy located relatively close to the Milky Way.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Milky Way -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_11_2026-09-27_18-22-13.jpg" alt="Milky Way" />
+            <div class="explore-card-content">
+              <h3>Milky Way</h3>
+              <p>The spiral galaxy that contains our Solar System.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Whirlpool -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_12_2026-09-27_18-22-13.jpg" alt="Whirlpool Galaxy" />
+            <div class="explore-card-content">
+              <h3>Whirlpool</h3>
+              <p>
+                A beautiful spiral galaxy with a bright and distinctive
+                structure.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sombrero -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_13_2026-09-27_18-22-14.jpg" alt="Sombrero Galaxy" />
+            <div class="explore-card-content">
+              <h3>Sombrero</h3>
+              <p>
+                A striking galaxy known for its bright center and dark dust
+                lane.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stars Content -->
+    <div class="tab-pane fade" id="stars" role="tabpanel">
+      <!-- Stars Cards -->
+      <div class="row g-4">
+        <!-- Sun -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_16_2026-09-27_18-22-14.jpg" alt="Sun" />
+            <div class="explore-card-content">
+              <h3>Sun</h3>
+              <p>The star at the center of our Solar System.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sirius -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_15_2026-09-27_18-22-14.jpg" alt="Sirius" />
+            <div class="explore-card-content">
+              <h3>Sirius</h3>
+              <p>The brightest star in the night sky as seen from Earth.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Betelgeuse -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_18_2026-09-27_18-22-14.jpg" alt="Betelgeuse" />
+            <div class="explore-card-content">
+              <h3>Betelgeuse</h3>
+              <p>A massive red supergiant star in the constellation Orion.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Polaris -->
+        <div class="col-md-6 col-lg-3">
+          <div class="explore-card">
+            <img src="../explore-images/photo_2026-09-28_00-02-05.jpg" alt="Polaris" />
+            <div class="explore-card-content">
+              <h3>Polaris</h3>
+              <p>The well-known North Star that marks the northern sky.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  <!--close explore tab content -->
+  </div>
+</div>
+  </section>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+ 
+      <!-- PREMIUM FOOTER -->
+    <footer class="asteria-footer">
+      <div class="footer-glow footer-glow-one"></div>
+      <div class="footer-glow footer-glow-two"></div>
+
+      <div class="container position-relative">
+        <div class="footer-cta reveal">
+          <div>
+            <span class="footer-kicker">
+              <i class="bi bi-stars"></i>
+              STAY CURIOUS
+            </span>
+
+            <h2>The universe is <em>waiting.</em></h2>
+
+            <p>
+              Keep exploring. Discover missions, cosmic stories and breathtaking
+              views of our universe.
+            </p>
+          </div>
+
+          <a href="#explore" class="footer-explore-btn">
+            Start Exploring
+            <span><i class="bi bi-arrow-up-right"></i></span>
+          </a>
+        </div>
+
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <span class="logo-mark">
+                <span></span>
+              </span>
+              ASTERIA
+            </a>
+
+            <p>
+              A new perspective on our home. Explore Earth, space and the
+              stories that connect us to the cosmos.
+            </p>
+
+            <div class="footer-socials">
+              <a href="#" aria-label="Instagram"
+                ><i class="bi bi-instagram"></i
+              ></a>
+              <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+              <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+
+          <div class="footer-column">
+            <span class="footer-title">EXPLORE</span>
+
+            <a href="#home">Home</a>
+            <a href="#missions">Missions</a>
+            <a href="#explore">Universe</a>
+            <a href="#earth">Earth</a>
+            <a href="#gallery">Gallery</a>
+          </div>
+
+          <div class="footer-column">
+            <span class="footer-title">DISCOVER</span>
+
+            <a href="#missions">Space Missions</a>
+            <a href="#news">Latest News</a>
+            <a href="#gallery">Cosmic Views</a>
+            <a href="#about">About Asteria</a>
+          </div>
+
+          <div class="footer-column">
+            <span class="footer-title">CONNECT</span>
+
+            <div class="footer-contact-item">
+              <i class="bi bi-broadcast-pin"></i>
+              <span>Beyond Earth<br />Somewhere in Space</span>
+            </div>
+
+            <div class="footer-contact-item">
+              <i class="bi bi-envelope"></i>
+              <span>hello@asteria.space</span>
+            </div>
+
+            <div class="footer-contact-item">
+              <i class="bi bi-globe2"></i>
+              <span>Earth · 2026</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <span> © 2026 ASTERIA. Designed for explorers. </span>
+
+          <div class="footer-bottom-links">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#home">
+              Back to top
+              <i class="bi bi-arrow-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+     </body>
+</html>
