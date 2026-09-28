@@ -106,3 +106,72 @@ h6 {
   padding-top: 80px !important;
   background-color: #050b14;
 }
+.tab-content {
+  overflow: visible;
+}
+#exploreTabsContent {
+  padding-top: 20px;
+  overflow: visible;
+}
+/* Explore Cards */
+
+.explore-card {
+  background: #0d1b2a;
+  border: 1px solid #1e3a5f;
+  border-radius: 15px;
+
+  transition: 0.3s;
+  position: relative;
+}
+
+/* Explore Card Image */
+
+.explore-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Explore Card Content */
+
+.explore-card-content {
+  padding: 20px;
+}
+
+/* Explore Card Title */
+
+.explore-card-content h3 {
+  color: #ffffff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+/* Explore Card Text */
+
+.explore-card-content p {
+  color: #aab4c8;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+/* Explore Card Hover */
+
+.explore-card:hover {
+  transform: translateY(-8px);
+  border-color: #4da3ff;
+  box-shadow: 0 10px 30px rgba(77, 163, 255, 0.2);
+}
+#exploreTabs {
+  margin-bottom: 0;
+}
+#exploreTabs .nav-link {
+  padding: 8px 22px;
+}
+#exploreTabs .nav-link {
+  padding: 5px 22px;
+}
+.tab-pane {
+  margin-top: 40px;
+}
