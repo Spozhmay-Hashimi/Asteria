@@ -20,7 +20,7 @@ h6 {
 }
 
 .text-primary {
-  color: #4da3ff !important;
+  color: #f7f9fc !important;
 }
 
 /* Explore Hero Section */
@@ -56,7 +56,7 @@ h6 {
 /* Hero Small Title */
 
 .hero-small-title {
-  color: #4da3ff;
+  color: #eceef0;
   font-weight: 700;
   letter-spacing: 3px;
 }
@@ -174,4 +174,113 @@ h6 {
 }
 .tab-pane {
   margin-top: 40px;
+}
+#glaxies {
+  margin-top: 20px;
+}
+#stars {
+  margin-top: 20px;
+}
+/* Explore Tabs */
+
+#exploreTabs {
+  gap: 12px;
+}
+
+#exploreTabs .nav-link {
+  color: #aab4c8;
+  background: #0d1b2a;
+  border: 1px solid #1e3a5f;
+  border-radius: 25px;
+  padding: 10px 25px;
+  transition: 0.3s;
+}
+
+#exploreTabs .nav-link:hover {
+  color: #ffffff;
+  border-color: #4da3ff;
+}
+
+#exploreTabs .nav-link.active {
+  color: #ffffff;
+  background: linear-gradient(135deg, #4da3ff, #8b5cf6);
+  border-color: transparent;
+}
+/* Space Between Tabs And Cards */
+
+.tab-content {
+  margin-top: 35px;
+}
+/* Explore Cards */
+
+.explore-card {
+  background: linear-gradient(145deg, #0d1b2a, #111b35, #17152f);
+  border: 1px solid #1e3a5f;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+/* Explore Card Hover */
+
+.explore-card:hover {
+  transform: translateY(-8px);
+  border-color: #4da3ff;
+  box-shadow: 0 10px 30px rgba(77, 163, 255, 0.2);
+}
+/* Explore Section */
+
+/*#explore {
+  background: radial-gradient(
+    circle at center,
+    #111b35 0%,
+    #080f1d 45%,
+    #050b14 100%
+  );
+}*/
+/* Explore Section */
+
+#explore {
+  background: radial-gradient(
+    circle at 50% 30%,
+    #18254a 0%,
+    #0b1628 45%,
+    #050b14 100%
+  );
+}
+
+/* Explore Small Gradient Title */
+
+#explore .text-primary {
+  background: linear-gradient(90deg, #534081, #97dae5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Explore Card Gradient Titles */
+
+.explore-card-content h3 {
+  background: linear-gradient(90deg, #795c8d, #4da3ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+/* Hero Gradient Title */
+
+.hero-content h1 {
+  background: linear-gradient(90deg, #ffffff, #4da3ff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 70px;
+  font-weight: 600;
+}
+/* Hero Small Gradient Title */
+
+.hero-small-title {
+    background: linear-gradient(90deg, #4DA3FF, #8B5CF6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: 3px;
 }
